@@ -13,9 +13,7 @@ app.add_middleware(
     allow_headers=["*"],   # Permitir todos os headers HTTP
 )
 
-CLIENT_ID = '772rz7etk9umg0'
-CLIENT_SECRET = 'l4AsTRoLZuCzeCIs'
-REDIRECT_URI = 'http://localhost:8000/callback'
+
 
 @app.get("/")
 def read_root():
